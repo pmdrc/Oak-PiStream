@@ -1,5 +1,6 @@
 # OakStreamCam
-       sudo rasp-config
+
+  sudo rasp-config
   enable ssh, camera
   sudo apt-get install vlc
   nano stream-rtsp.sh

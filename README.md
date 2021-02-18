@@ -62,4 +62,7 @@ Notes:
     "passwd pi" or "nano /etc/wpa_supplicant/wpa_supplicant.conf
     boot press shift
     remove "init=/bin/bash" to the cmdline.txt
-   
+
+other notes:
+https://hmbd.wordpress.com/2016/08/01/raspberry-pi-video-and-audio-recording-and-streaming-guide/
+

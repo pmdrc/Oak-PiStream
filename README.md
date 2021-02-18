@@ -17,6 +17,9 @@ Edit /etc/wpa_supplicant/wpa_supplicant.conf
         key_mgmt=WPA-PSK
         priority=1
     }
+    
+sudo /etc/dhcpcd.conf
+
 
 sudo apt-get install vlc
 nano stream-rtsp.sh
@@ -59,4 +62,4 @@ Notes:
     "passwd pi" or "nano /etc/wpa_supplicant/wpa_supplicant.conf
     boot press shift
     remove "init=/bin/bash" to the cmdline.txt
-    
+   

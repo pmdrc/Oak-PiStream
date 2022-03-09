@@ -74,8 +74,11 @@ Zero4U USB HUB hat
 You can download an older version of Raspberry Pi OS which works with the provided driver
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-05-28/
 
-https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-setup-a-rtl881cu-usb-wifi-adapter-with-the-raspberry-pi-4. --> This fails compile
-
 https://github.com/fastoe/RTL8811CU_for_Raspbian
 
+sudo crontab -e
+If it’s the first time you do this, select your favorite text editor
+Press enter to stay with nano
 
+In the crontab file, add the following line at the end:
+@reboot ifconfig wlan0 down

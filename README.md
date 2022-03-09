@@ -67,9 +67,12 @@ other notes:
 https://hmbd.wordpress.com/2016/08/01/raspberry-pi-video-and-audio-recording-and-streaming-guide/  
 
 # OakAudioStream
-Pi Zero
-Zero4U USB HUB hat
-5G dongle - https://thepihut.com/products/raspberry-pi-dual-band-5ghz-2-4ghz-usb-wifi-nano-adapter
+
+    Pi Zero https://thepihut.com/products/raspberry-pi-zero-2
+
+    Zero4U USB HUB hat - https://www.uugear.com/doc/Zero4U_UserManual.pdf
+
+    5G dongle - https://thepihut.com/products/raspberry-pi-dual-band-5ghz-2-4ghz-usb-wifi-nano-adapter
 
 You can download an older version of Raspberry Pi OS which works with the provided driver
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-05-28/

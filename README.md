@@ -74,5 +74,8 @@ Zero4U USB HUB hat
 You can download an older version of Raspberry Pi OS which works with the provided driver
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-05-28/
 
-https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-setup-a-rtl881cu-usb-wifi-adapter-with-the-raspberry-pi-4
+https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-setup-a-rtl881cu-usb-wifi-adapter-with-the-raspberry-pi-4. --> This fails compile
+
+https://github.com/fastoe/RTL8811CU_for_Raspbian
+
 

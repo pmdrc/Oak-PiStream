@@ -77,7 +77,7 @@ https://hmbd.wordpress.com/2016/08/01/raspberry-pi-video-and-audio-recording-and
 You can download an older version of Raspberry Pi OS which works with the provided driver
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-05-28/
 
-https://github.com/fastoe/RTL8811CU_for_Raspbian
+Install the WIfi 5G drivers:  https://github.com/fastoe/RTL8811CU_for_Raspbian
 
 sudo crontab -e
 If it’s the first time you do this, select your favorite text editor
@@ -85,3 +85,7 @@ Press enter to stay with nano
 
 In the crontab file, add the following line at the end:
 @reboot ifconfig wlan0 down
+
+https://hobbylad.wordpress.com/2017/04/26/raspberry-pi-system-audio-redirection-over-network/
+
+cvlc -vvv alsa://plughw:1 --sout '#transcode{acodec=mp3,ab=320,channels=1}:standard{access=http,dst=0.0.0.0:8888/out.mp3}'

@@ -66,3 +66,13 @@ Notes:
 other notes:  
 https://hmbd.wordpress.com/2016/08/01/raspberry-pi-video-and-audio-recording-and-streaming-guide/  
 
+# OakAudioStream
+Pi Zero
+Zero4U USB HUB hat
+5G dongle - https://thepihut.com/products/raspberry-pi-dual-band-5ghz-2-4ghz-usb-wifi-nano-adapter
+
+You can download an older version of Raspberry Pi OS which works with the provided driver
+https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-05-28/
+
+https://thepihut.com/blogs/raspberry-pi-tutorials/how-to-setup-a-rtl881cu-usb-wifi-adapter-with-the-raspberry-pi-4
+

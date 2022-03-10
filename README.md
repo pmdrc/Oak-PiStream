@@ -68,24 +68,24 @@ https://hmbd.wordpress.com/2016/08/01/raspberry-pi-video-and-audio-recording-and
 
 # OakAudioStream
 
-    Pi Zero https://thepihut.com/products/raspberry-pi-zero-2
+Pi Zero https://thepihut.com/products/raspberry-pi-zero-2
 
-    Zero4U USB HUB hat - https://www.uugear.com/doc/Zero4U_UserManual.pdf
+Zero4U USB HUB hat - https://www.uugear.com/doc/Zero4U_UserManual.pdf
 
-    5G dongle - https://thepihut.com/products/raspberry-pi-dual-band-5ghz-2-4ghz-usb-wifi-nano-adapter
+5G dongle - https://thepihut.com/products/raspberry-pi-dual-band-5ghz-2-4ghz-usb-wifi-nano-adapter
 
 You can download an older version of Raspberry Pi OS which works with the provided driver
 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2020-05-28/
 
+add this 2 lines:
+
+    dtoverlay=disable-wifi
+    dtoverlay=disable-bt
+
+to the file /boot/config.txt - wifi causes interference with the usb hub
+
 Install the WIfi 5G drivers:  https://github.com/fastoe/RTL8811CU_for_Raspbian
 
-sudo crontab -e
-If it’s the first time you do this, select your favorite text editor
-Press enter to stay with nano
-
-In the crontab file, add the following line at the end:
-@reboot ifconfig wlan0 down
-
-https://hobbylad.wordpress.com/2017/04/26/raspberry-pi-system-audio-redirection-over-network/
-
 cvlc -vvv alsa://plughw:1 --sout '#transcode{acodec=mp3,ab=320,channels=1}:standard{access=http,dst=0.0.0.0:8888/out.mp3}'
+
+reference: https://hobbylad.wordpress.com/2017/04/26/raspberry-pi-system-audio-redirection-over-network/

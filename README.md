@@ -89,3 +89,4 @@ Install the WIfi 5G drivers:  https://github.com/fastoe/RTL8811CU_for_Raspbian
 cvlc -vvv alsa://plughw:1 --sout '#transcode{acodec=mp3,ab=320,channels=1}:standard{access=http,dst=0.0.0.0:8888/out.mp3}'
 
 reference: https://hobbylad.wordpress.com/2017/04/26/raspberry-pi-system-audio-redirection-over-network/
+           https://www.uugear.com/portfolio/is-zero4u-compatible-with-raspberry-pi-zero-w/
